@@ -68,7 +68,7 @@
 
 
     <Button
-        android:id="@+id/add_new_product"
+        android:id="@+id/addnewproduct"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/product_price"
