@@ -19,9 +19,9 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 public class AddNewProductActivity extends AppCompatActivity {
-    //private String CategoryName;
+
     private Button addproductbtn;
-    //private ImageView image;
+
     private EditText name, description, price;
     FirebaseFirestore db;
 
@@ -29,9 +29,9 @@ public class AddNewProductActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_new_product);
-        //CategoryName = getIntent().getExtras().get("category").toString();
+
         addproductbtn = (Button) findViewById(R.id.addnewproduct);
-        // image = (ImageView) findViewById(R.id.select_product_image);
+
         name = (EditText) findViewById(R.id.product_name);
         description = (EditText) findViewById(R.id.product_description);
         price = (EditText) findViewById(R.id.product_price);
@@ -71,16 +71,6 @@ public class AddNewProductActivity extends AppCompatActivity {
 
 
     }
-    /*@Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                this.finish();
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-    } */
 
 }
 
