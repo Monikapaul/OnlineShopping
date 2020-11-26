@@ -9,11 +9,11 @@
 
  <ImageView
      android:id="@+id/applogo"
-     android:layout_width="300dp"
-     android:layout_height="100dp"
+     android:layout_width="350dp"
+     android:layout_height="120dp"
      android:layout_centerHorizontal="true"
      android:layout_marginTop="100dp"
-     android:src="@drawable/applogo"
+     android:src="@drawable/logo"
      android:textStyle="bold"
      />
 
@@ -25,7 +25,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="79dp"
-        android:layout_marginTop="210dp"
+        android:layout_marginTop="230dp"
         android:layout_marginEnd="80dp"
         android:text="Find, Discover, Choose and Buy anything online."
         android:textAlignment="center"
@@ -33,7 +33,7 @@
         android:textSize="25sp"
         android:textStyle="bold" />
     <Button
-        android:id="@+id/join_btn"
+        android:id="@+id/joinbutton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/login_btn"
@@ -45,7 +45,7 @@
         android:textAllCaps="false"
         android:textSize="18sp"
         android:text="Join Now"
-        android:textColor="@color/white"
+        android:textColor="@android:color/white"
         />
     <Button
         android:id="@+id/login_btn"

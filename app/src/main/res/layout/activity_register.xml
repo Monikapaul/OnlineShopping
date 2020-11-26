@@ -9,11 +9,11 @@
 
     <ImageView
         android:id="@+id/applogo"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:src="@drawable/applogo"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="260dp"
+        android:layout_marginTop="200dp"
 
         />
 
@@ -28,8 +28,8 @@
         android:layout_marginRight="15dp"
         android:hint="Name"
         android:inputType="text"
-        android:textColor="@color/design_default_color_primary_dark"
-        android:textColorHint="@color/design_default_color_primary_dark"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="23sp"
         />
 
@@ -44,8 +44,8 @@
         android:layout_marginRight="15dp"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        android:textColor="@color/design_default_color_primary_dark"
-        android:textColorHint="@color/design_default_color_primary_dark"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="23sp"
         android:layout_marginTop="6dp"
         />
@@ -63,8 +63,8 @@
         android:layout_marginTop="6dp"
         android:hint="Password"
         android:inputType="textPassword"
-        android:textColor="@color/design_default_color_primary_dark"
-        android:textColorHint="@color/design_default_color_primary_dark"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="23sp"
         />
 

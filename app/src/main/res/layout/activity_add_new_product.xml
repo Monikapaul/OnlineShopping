@@ -32,6 +32,8 @@
         android:layout_marginLeft="45dp"
         android:layout_marginRight="45dp"
         android:background="@drawable/inputdesign"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         />
 
 
@@ -48,6 +50,8 @@
         android:layout_marginLeft="45dp"
         android:layout_marginRight="45dp"
         android:background="@drawable/inputdesign"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         />
 
 
@@ -64,6 +68,8 @@
         android:layout_marginLeft="45dp"
         android:layout_marginRight="45dp"
         android:background="@drawable/inputdesign"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         />
 
 
@@ -72,11 +78,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/product_price"
-        android:text="Add Product"
+        android:text="Add Product to Cart"
         android:layout_marginLeft="45dp"
         android:layout_marginRight="45dp"
         android:padding="17dp"
         android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttons"
+        />
+
+    <Button
+        android:id="@+id/retreivebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_price"
+        android:text="Go to Cart"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:padding="17dp"
+        android:layout_marginTop="120dp"
         android:textSize="18sp"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
