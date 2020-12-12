@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 public class AdminCategoryActivity extends AppCompatActivity {
@@ -12,7 +13,8 @@ public class AdminCategoryActivity extends AppCompatActivity {
     private ImageView lboot, belly, sandal;
     private ImageView shos, sports, sleepr;
     private ImageView boot, rubber;
-
+    Button showproduct;
+    Button insertproduct;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +28,8 @@ public class AdminCategoryActivity extends AppCompatActivity {
         sleepr = (ImageView) findViewById(R.id.sleeprsimg);
         boot = (ImageView) findViewById(R.id.bootimg);
         rubber = (ImageView) findViewById(R.id.rubberbootsimg);
+        showproduct = (Button)findViewById(R.id.show_btn);
+        insertproduct = (Button)findViewById(R.id.insert_btn);
 
         lboot.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -99,6 +103,23 @@ public class AdminCategoryActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        showproduct.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(AdminCategoryActivity.this, retrofitproducts.class);
+                startActivity(intent);
+
+            }
+        });
+        insertproduct.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(AdminCategoryActivity.this, retrofitpostproducts.class);
+                startActivity(intent);
+
+            }
+        });
+
     }
 }
 

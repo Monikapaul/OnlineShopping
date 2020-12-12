@@ -12,10 +12,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="27dp"
-        android:text="Add New Product"
+        android:layout_marginTop="10dp"
+        android:text="Select Product Image"
         android:textAlignment="center"
-        android:textSize="26sp"
+        android:textSize="23sp"
         android:textStyle="bold"
         />
    <LinearLayout
@@ -26,26 +26,26 @@
        android:orientation="horizontal"
        android:layout_centerHorizontal="true"
        android:gravity="center"
-       android:layout_marginTop="45dp"
+       android:layout_marginTop="15dp"
        android:layout_marginLeft="10dp"
        android:layout_marginRight="10dp">
 
        <ImageView
            android:id="@+id/longbootsimg"
            android:layout_width="130dp"
-           android:layout_height="150dp"
+           android:layout_height="140dp"
            android:src="@drawable/longboots" />
 
        <ImageView
            android:id="@+id/belliesimg"
            android:layout_width="130dp"
-           android:layout_height="150dp"
+           android:layout_height="140dp"
            android:src="@drawable/bellies" />
 
        <ImageView
            android:id="@+id/sandalsimg"
            android:layout_width="130dp"
-           android:layout_height="150dp"
+           android:layout_height="140dp"
            android:src="@drawable/sandals"
            />
 
@@ -61,24 +61,24 @@
         android:orientation="horizontal"
         android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:layout_marginTop="45dp">
+        android:layout_marginTop="15dp">
 
         <ImageView
             android:id="@+id/shoesimg"
             android:layout_width="130dp"
-            android:layout_height="150dp"
+            android:layout_height="140dp"
             android:src="@drawable/shoes"
             />
         <ImageView
             android:id="@+id/sportshoesimg"
             android:layout_width="130dp"
-            android:layout_height="150dp"
+            android:layout_height="140dp"
             android:src="@drawable/sportshoes"
             />
         <ImageView
             android:id="@+id/sleeprsimg"
             android:layout_width="130dp"
-            android:layout_height="150dp"
+            android:layout_height="140dp"
             android:src="@drawable/sleeprs"
             />
     </LinearLayout>
@@ -90,22 +90,52 @@
         android:orientation="horizontal"
         android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:layout_marginTop="45dp">
+        android:layout_marginTop="10dp">
         <ImageView
             android:id="@+id/bootimg"
             android:layout_width="130dp"
-            android:layout_height="150dp"
+            android:layout_height="140dp"
             android:src="@drawable/boot"
             android:layout_marginStart="16dp"
             />
         <ImageView
             android:id="@+id/rubberbootsimg"
             android:layout_width="130dp"
-            android:layout_height="150dp"
+            android:layout_height="140dp"
             android:src="@drawable/rubberboots"
             />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/show_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="515dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Show Products"
+        android:textColor="@android:color/white"
+        />
+    <Button
+        android:id="@+id/insert_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="595dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Show Post Products"
+        android:textColor="@android:color/white"
+        />
 
 
 
